@@ -3,7 +3,19 @@
 @tailwind utilities;
 
 @layer utilities {
-  .bg-1 {
-    background-color: "linear-gradient(270deg, #903AFF 0%, #FE34B9 100%)";
+  .flex-between {
+    @apply flex justify-between items-center;
+  }
+
+  .flex-center {
+    @apply flex justify-center items-center;
+  }
+
+  .flex-start {
+    @apply flex justify-start items-start;
+  }
+
+  .flex-end {
+    @apply flex justify-end;
   }
 }
