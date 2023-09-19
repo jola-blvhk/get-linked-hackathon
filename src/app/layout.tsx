@@ -1,3 +1,4 @@
+import { Header } from "@/components";
 import "./globals.css";
 import type { Metadata } from "next";
 import { Montserrat } from "next/font/google";
@@ -42,7 +43,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${montserrat.className} ${clash.className}`}>
-      <body className="">{children}</body>
+      <body className="">
+        <Header />
+        {children}
+      </body>
     </html>
   );
 }
