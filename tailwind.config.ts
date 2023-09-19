@@ -24,6 +24,7 @@ const config: Config = {
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-pink": "linear-gradient(to right,#FE34B9, #903AFF )",
+        "section_one": "url('/assets/Section_One_Gradient.png')",
       },
       colors: {
         primary: {
