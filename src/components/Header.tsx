@@ -13,19 +13,19 @@ export const Header = () => {
           </h1>
         </Link>
 
-        <div>{/* <Input className="" /> */}</div>
+     
 
         {/* <Menu className="block md:hidden" /> */}
 
         <ul className="flex-center gap-x-3 max-md:hidden md:gap-x-10">
           <li className="body-text text-gradient_blue-purple !font-bold">
             <Link href="/" target="_blank">
-              Home
+              Timeline
             </Link>
           </li>
           <li className="body-text text-gradient_blue-purple !font-bold">
             <Link href="/" target="_blank">
-              Login
+              Overview
             </Link>
           </li>
         </ul>
