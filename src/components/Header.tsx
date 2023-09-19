@@ -28,6 +28,16 @@ export const Header = () => {
               Overview
             </Link>
           </li>
+          <li className="body-text text-gradient_blue-purple !font-bold">
+            <Link href="/" target="_blank">
+             Faqs
+            </Link>
+          </li>
+          <li className="body-text text-gradient_blue-purple !font-bold">
+            <Link href="/" target="_blank">
+              Contact
+            </Link>
+          </li>
         </ul>
       </div>
     </nav>
