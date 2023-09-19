@@ -3,6 +3,14 @@
 @tailwind utilities;
 
 @layer utilities {
+  .text-gradient_blue-purple {
+    background: linear-gradient(to right, #fe34b9, #903aff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+  }
+
   .flex-between {
     @apply flex justify-between items-center;
   }
@@ -17,5 +25,8 @@
 
   .flex-end {
     @apply flex justify-end;
+  }
+  .padding_section {
+    @apply mx-auto w-full max-w-screen-2xl px-6 xs:px-8 sm:px-16;
   }
 }

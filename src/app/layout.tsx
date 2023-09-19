@@ -42,8 +42,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={`${montserrat.className} ${clash.className}`}>
-      <body className="">
+    <html lang='en' className={`${montserrat.variable} ${clash.variable}`}>
+      <body className=' font-body'>
         <Header />
         {children}
       </body>
