@@ -1,6 +1,7 @@
 // import { Menu } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
+import { Button } from ".";
 // import { Input } from "./ui/input";
 
 export const Header = () => {
@@ -12,8 +13,6 @@ export const Header = () => {
             get<span className=" text-primary-pink_100">linked</span>
           </h1>
         </Link>
-
-     
 
         {/* <Menu className="block md:hidden" /> */}
 
@@ -30,7 +29,7 @@ export const Header = () => {
           </li>
           <li className="body-text text-gradient_blue-purple !font-bold">
             <Link href="/" target="_blank">
-             Faqs
+              Faqs
             </Link>
           </li>
           <li className="body-text text-gradient_blue-purple !font-bold">
@@ -39,6 +38,8 @@ export const Header = () => {
             </Link>
           </li>
         </ul>
+
+        <Button>Register</Button>
       </div>
     </nav>
   );
