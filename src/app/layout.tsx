@@ -1,10 +1,16 @@
 import { Header } from "@/components";
 import "./globals.css";
 import type { Metadata } from "next";
-import { Montserrat } from "next/font/google";
+import { Montserrat, Unica_One } from "next/font/google";
 import localFont from "next/font/local";
 
 const montserrat = Montserrat({ subsets: ["latin"], variable: "--body-font" });
+
+const unica_one = Unica_One({
+  weight: ["400"],
+  subsets: ["latin"],
+  variable: "--unica-font",
+});
 
 const clash = localFont({
   src: [
@@ -42,8 +48,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang='en' className={`${montserrat.variable} ${clash.variable}`}>
-      <body className=' font-body'>
+    <html
+      lang="en"
+      className={`${montserrat.variable} ${clash.variable} ${unica_one.variable}`}
+    >
+      <body className=" font-body">
         <Header />
         {children}
       </body>

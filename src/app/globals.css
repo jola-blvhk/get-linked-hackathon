@@ -27,6 +27,6 @@
     @apply flex justify-end;
   }
   .padding_section {
-    @apply mx-auto w-full max-w-screen-2xl px-6 xs:px-8 sm:px-16;
+    @apply mx-auto w-full max-w-screen-2xl px-6 xs:px-8 sm:px-16 md:px-20 lg:px-24 2xl:px-36 ;
   }
 }

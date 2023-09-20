@@ -10,6 +10,7 @@ const config: Config = {
     fontFamily: {
       heading: "var(--heading-font)",
       body: "var(--body-font)",
+      unica: "var(--unica-font)",
     },
     extend: {
       screens: {
@@ -24,7 +25,8 @@ const config: Config = {
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-pink": "linear-gradient(to right,#FE34B9, #903AFF )",
-        "section_one": "url('/assets/Section_One_Gradient.png')",
+        section_one: "url('/assets/Section_One_Gradient.png')",
+        section_one_mobile: "url('/assets/section-one-mobile-gradient.png')",
       },
       colors: {
         primary: {
