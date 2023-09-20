@@ -21,7 +21,7 @@ export default function Home() {
             </div>
           </div>
           <div className="grid md:flex ">
-            <section className=" padding_section grid space-y-6 w-fit m-auto ">
+            <section className=" padding_section grid space-y-6 w-fit m-auto pt-12 md:pt-0">
               <div className="">
                 <div className="flex-center  relative w-fit m-auto md:m-0">
                   <h1 className="font-bold font-heading  text-center   md:text-left text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl">
