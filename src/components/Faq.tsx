@@ -25,7 +25,7 @@ export const faqItems = [
       "Yes, you can invest in multiple projects simultaneously. Diversifying your investment portfolio across different projects allows you to spread risk and maximize potential returns. Our platform supports investing in multiple projects, giving you the flexibility to choose from various sectors and initiatives within Enugu.",
   },
   {
-    heading: "Can I invest in multiple projects simultaneously?",
+    heading: "What happens after the hackathon ends?",
     description:
       "Yes, you can invest in multiple projects simultaneously. Diversifying your investment portfolio across different projects allows you to spread risk and maximize potential returns. Our platform supports investing in multiple projects, giving you the flexibility to choose from various sectors and initiatives within Enugu.",
   },
@@ -46,14 +46,14 @@ export const Faq = () => {
   return (
     <>
       <section className="text-center  md:max-w-[1100px] md:justify-center md:items-center ">
-        <div className=" max-w-[400px]  ">
+        <div className="   ">
           {faqItems.map((item, idx) => (
             <div key={idx} className="border-b-[.05rem] border-[#D434FE]">
-              <div className="flex justify-between p-2  md:pt-8 md:px-0">
+              <div className="flex justify-between pt-6 pb-2  md:pt-8 md:px-0">
                 <h4 className="text-[12px]  text-left md:text-[14px]">
                   {item.heading}
                 </h4>
-                <div className="text-center cursor-pointer">
+                <div className="text-center cursor-pointer grid items-end">
                   <IoIosAdd
                     className={
                       faqIndex === idx
