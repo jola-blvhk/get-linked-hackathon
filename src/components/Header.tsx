@@ -15,7 +15,7 @@ export const Header = () => {
           </h1>
         </Link>
 
-        <div className='flex-center md:hidden md:space-x-20'>
+        <div className='flex-center  md:space-x-20'>
           <ul className='flex-center gap-x-3 md:gap-x-3'>
             <li className='font-bold hover:text-gradient_blue-purple'>
               <Link href='/' target='_blank'>

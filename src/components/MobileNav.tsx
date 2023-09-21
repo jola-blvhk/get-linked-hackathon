@@ -39,7 +39,7 @@ const MobileNav = () => {
   };
   return (
     <>
-      <div onClick={onToggleMenu} className='lg:hidden'>
+      <div onClick={onToggleMenu} className='md:hidden'>
         <Image
           src='/assets/menu.svg'
           width={30}
@@ -49,7 +49,7 @@ const MobileNav = () => {
         />
       </div>
       <div
-        className={`lg:hidden fixed left-0 top-0 z-10 h-full w-full transform duration-[600ms] ease-[cubic-bezier(0.7,0,0,1)] bg-[#150E28] ${
+        className={`md:hidden fixed left-0 top-0 z-10 h-full w-full transform duration-[600ms] ease-[cubic-bezier(0.7,0,0,1)] bg-[#150E28] ${
           showMenu ? 'translate-x-0 rounded-none' : 'translate-x-full'
         }`}
       >
@@ -57,7 +57,7 @@ const MobileNav = () => {
           <button
             aria-label='Toggle Menu'
             onClick={onToggleMenu}
-            className={`lg:hidden border border-primary-pink_100  rounded-full p-1 duration-500 ${
+            className={`md:hidden border border-primary-pink_100  rounded-full p-1 duration-500 ${
               !showMenu && '-rotate-[360deg]'
             }
             `}
