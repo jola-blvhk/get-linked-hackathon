@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, TwoGrid, Faq } from ".";
+import { Button, TwoGrid, Faq, TimeLine, TimeLineThree } from ".";
 
 export const LPSecondSection = () => {
   const sectionOne = () => {
@@ -147,6 +147,14 @@ export const LPSecondSection = () => {
       >
         {sectionFour()}
       </TwoGrid>
+
+      <div className=" hidden bg-[url(/images/desktop-images/timeline-bg.png)] bg-no-repeat bg-contain   md:block">
+        <TimeLine />
+      </div>
+      <div className=" md:border-none md:px-4 lg:px-10 md:hidden">
+        <TimeLineThree />
+      </div>
+      <div></div>
     </section>
   );
 };
