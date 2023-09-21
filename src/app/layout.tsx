@@ -1,9 +1,9 @@
-import { Header } from '@/components';
 import './globals.css';
 import type { Metadata } from 'next';
 import { Montserrat, Unica_One } from 'next/font/google';
 import localFont from 'next/font/local';
 import Footer from '@/components/Footer';
+import Header from '@/components/Header';
 
 const montserrat = Montserrat({ subsets: ['latin'], variable: '--body-font' });
 
