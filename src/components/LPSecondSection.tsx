@@ -1,15 +1,15 @@
-import React from "react";
-import { TwoGrid } from ".";
+import React from 'react';
+import { TwoGrid } from '.';
 
 export const LPSecondSection = () => {
-  const info = (): JSX.Element => {
+  const info = () => {
     return (
       <div>
-        <h2 className="text-white">
+        <h2 className='text-white'>
           Introduction to getlinked <br />
-          <span className=" text-primary-pink_100 ">tech Hackathon 1.0</span>
+          <span className=' text-primary-pink_100 '>tech Hackathon 1.0</span>
         </h2>
-        <p className="text-center md:text-left">
+        <p className='text-center md:text-left'>
           Our tech hackathon is a melting pot of visionaries, and its purpose is
           as clear as day: to shape the future. Whether you're a coding genius,
           a design maverick, or a concept wizard, you'll have the chance to
@@ -21,8 +21,15 @@ export const LPSecondSection = () => {
     );
   };
   return (
-    <section className="border-b-2 border-white border-opacity-25 bg-[#1E1E1E] text-white ">
-      <TwoGrid imageLeft={true} Info={info} />
+    <section className='border-b-2 border-white border-opacity-25 bg-[#1E1E1E] text-white '>
+      <TwoGrid
+        imageLeft={false}
+        src='/assets/congratulation.png'
+        width={500}
+        height={500}
+      >
+        {info()}
+      </TwoGrid>
     </section>
   );
 };
