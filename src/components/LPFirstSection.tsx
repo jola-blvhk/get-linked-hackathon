@@ -52,7 +52,7 @@ export const LPFirstSection = () => {
               </div>
 
               <div className="m-auto md:m-0">
-                <p className="text-center md:text-left max-w-md">
+                <p className="text-center md:text-left max-w-sm md:max-w-md leading-loose">
                   Participate in getlinked tech Hackathon 2023 stand a chance to
                   win a Big prize
                 </p>

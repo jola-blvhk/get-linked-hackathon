@@ -34,6 +34,7 @@ const config: Config = {
       colors: {
         primary: {
           pink_100: "#D434FE",
+          pink_200: "#FF26B9",
           purple_100: "#903AFF",
           dark_purple: "#150E28",
           gradient_pink: "linear-gradient(to right,#FE34B9, #903AFF )",
