@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, TwoGrid } from ".";
+import { Button, TwoGrid, Faq } from ".";
 
 export const LPSecondSection = () => {
   const sectionOne = () => {
@@ -92,6 +92,21 @@ export const LPSecondSection = () => {
       </div>
     );
   };
+  const sectionFour = () => {
+    return (
+      <div>
+        <h2 className="text-white text-center md:text-left font-heading font-bold mb-3 md:mb-6 text-xl sm:text-2xl  md:text-3xl">
+          Frequently Ask <br />
+          <span className=" text-primary-pink_100 ">Question</span>
+        </h2>
+        <p className="text-center md:text-left text-sm md:text-md leading-7">
+          We got answers to the questions that you might want to ask about
+          getlinked Hackathon 1.0
+        </p>
+        <Faq />
+      </div>
+    );
+  };
   return (
     <section className="  text-white ">
       <TwoGrid
@@ -122,6 +137,15 @@ export const LPSecondSection = () => {
         className="w-[100%] h-auto object-contain"
       >
         {sectionThree()}
+      </TwoGrid>
+      <TwoGrid
+        imageLeft={true}
+        src="/assets/3d-man-with-questionmark.png"
+        width={500}
+        height={500}
+        className="w-[100%] h-auto object-contain"
+      >
+        {sectionFour()}
       </TwoGrid>
     </section>
   );
