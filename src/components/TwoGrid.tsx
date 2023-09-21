@@ -20,7 +20,7 @@ export const TwoGrid: React.FC<TwoGridProps> = ({
   className,
 }) => {
   return (
-    <div className="bg-[#1E1E1E] text-white border-b-2 border-white border-opacity-25">
+    <div className="bg-[#150E28] text-white border-b-2 border-white border-opacity-25">
       <div className="maxWidthScreen">
         <div className="padding_section   ">
           <div className="bg-section_two_mobile sm:bg-section_two bg-no-repeat bg-cover  ">
