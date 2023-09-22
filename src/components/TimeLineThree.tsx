@@ -3,7 +3,7 @@
 export const TimeLineThree = () => {
   return (
     <>
-      <section className="md:hidden bg-[#150E28] py-16 padding_section ">
+      <section className="md:hidden bg-[#150E28] border-b-2 border-white border-opacity-25 py-16 padding_section ">
         <div>
           <h1 className=" font-heading text-[20px] font-bold  mx-auto my-4 md:text-[32px] text-center">
             Timeline

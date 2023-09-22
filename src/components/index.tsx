@@ -6,3 +6,4 @@ export * from "./LPSecondSection";
 export * from "./Faq";
 export * from "./Timeline";
 export * from "./TimeLineThree"
+export * from "./Rewards"

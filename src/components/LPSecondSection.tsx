@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, TwoGrid, Faq, TimeLine, TimeLineThree } from ".";
+import { Button, TwoGrid, Faq, TimeLine, TimeLineThree, Rewards } from ".";
 
 export const LPSecondSection = () => {
   const sectionOne = () => {
@@ -94,7 +94,7 @@ export const LPSecondSection = () => {
   };
   const sectionFour = () => {
     return (
-      <div>
+      <div >
         <h2 className="text-white text-center md:text-left font-heading font-bold mb-3 md:mb-6 text-xl sm:text-2xl  md:text-3xl">
           Frequently Ask <br />
           <span className=" text-primary-pink_100 ">Question</span>
@@ -148,13 +148,13 @@ export const LPSecondSection = () => {
         {sectionFour()}
       </TwoGrid>
 
-      <div className=" hidden bg-[url(/images/desktop-images/timeline-bg.png)] bg-no-repeat bg-contain   md:block">
+      <div className=" hidden bg-[url(/images/desktop-images/timeline-bg.png)] bg-no-repeat bg-contain maxWidthSection   md:block  ">
         <TimeLine />
       </div>
       <div className=" md:border-none md:px-4 lg:px-10 md:hidden">
         <TimeLineThree />
       </div>
-      <div></div>
+      <Rewards />
     </section>
   );
 };
