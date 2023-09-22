@@ -5,7 +5,7 @@ import { Award } from "./award";
 export const Rewards = () => {
   return (
     <>
-      <section className="bg-[#150E28] border-b-2 border-white border-opacity-25 lg:pb-32">
+      <section className="bg-[#150E28] border-b-2 border-white border-opacity-25 py-10">
         <div className="maxWidthScreen">
           <div className="padding_section">
             <div className="text-center sm:text-left w-fit sm:float-right">
