@@ -8,3 +8,4 @@ export * from "./Timeline";
 export * from "./TimeLineThree";
 export * from "./Rewards";
 export * from "./Partners";
+export * from "./privacy";

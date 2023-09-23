@@ -12,7 +12,7 @@ export const Button: React.FC<ButtonProps> = ({
   return (
     <button
       {...rest}
-      className={`px-12 py-2 text-center rounded-md  transition duration-700 ease-in-out font-semibold text-white bg-gradient-pink ${className}`}
+      className={`px-12 py-2 text-center rounded-md  transition duration-700 ease-in-out font-semibold text-white  bg-gradient-pink hover:bg-transparent ${className}`}
     >
       {children}
     </button>

@@ -1,5 +1,14 @@
 import React from "react";
-import { Button, TwoGrid, Faq, TimeLine, TimeLineThree, Rewards, Partners } from ".";
+import {
+  Button,
+  TwoGrid,
+  Faq,
+  TimeLine,
+  TimeLineThree,
+  Rewards,
+  Partners,
+  Privacy,
+} from ".";
 
 export const LPSecondSection = () => {
   const sectionOne = () => {
@@ -94,7 +103,7 @@ export const LPSecondSection = () => {
   };
   const sectionFour = () => {
     return (
-      <div >
+      <div>
         <h2 className="text-white text-center md:text-left font-heading font-bold mb-3 md:mb-6 text-xl sm:text-2xl  md:text-3xl">
           Frequently Ask <br />
           <span className=" text-primary-pink_100 ">Question</span>
@@ -156,6 +165,7 @@ export const LPSecondSection = () => {
       </div>
       <Rewards />
       <Partners />
+      <Privacy />
     </section>
   );
 };
