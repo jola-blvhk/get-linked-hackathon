@@ -64,7 +64,9 @@ const Header = () => {
                 </Link>
               </li>
             </ul>
-            <Button>Register</Button>
+            <Link href="/register">
+              <Button>Register</Button>
+            </Link>
           </div>
           {/* <Menu className="block md:hidden" /> */}
           <MobileNav />

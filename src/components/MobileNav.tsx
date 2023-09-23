@@ -23,7 +23,7 @@ const MobileNav = () => {
     },
     {
       title: "Contact",
-      href: "/",
+      href: "/contact",
     },
   ];
 
@@ -39,13 +39,13 @@ const MobileNav = () => {
   };
   return (
     <>
-      <div onClick={onToggleMenu} className='md:hidden'>
+      <div onClick={onToggleMenu} className="md:hidden">
         <Image
-          src='/assets/menu.svg'
+          src="/assets/menu.svg"
           width={30}
           height={30}
-          alt='Menu Icon'
-          className='block w-auto h-auto'
+          alt="Menu Icon"
+          className="block w-auto h-auto"
         />
       </div>
       <div
@@ -53,32 +53,34 @@ const MobileNav = () => {
           showMenu ? "translate-x-0 rounded-none" : "translate-x-full"
         }`}
       >
-        <div className='flex items-center justify-end mt-6 padding_section'>
+        <div className="flex items-center justify-end mt-6 padding_section">
           <button
-            aria-label='Toggle Menu'
+            aria-label="Toggle Menu"
             onClick={onToggleMenu}
             className={`md:hidden border border-primary-pink_100  rounded-full p-1 duration-500 ${
               !showMenu && "-rotate-[360deg]"
             }
             `}
           >
-            <HiX className='text-xl' />
+            <HiX className="text-xl" />
           </button>
         </div>
 
-        <nav className='flex flex-col mt-4 padding_section'>
+        <nav className="flex flex-col mt-4 padding_section">
           {navLinks.map((link, id) => (
             <Link
               href={link.href}
               key={id}
-              className='flex items-center gap-x-2 font-semibold text-lg pt-4 group'
+              className="flex items-center gap-x-2 font-semibold hover:hover:text-gradient_blue-purple text-lg pt-4 group"
               onClick={onToggleMenu}
             >
               {link.title}
             </Link>
           ))}
-          <div className='mt-10'>
-            <Button className='py-4 px-14 rounded-md'>Register</Button>
+          <div className="mt-10">
+            <Link href="/register">
+              <Button className="py-4 px-14 rounded-md">Register</Button>
+            </Link>
           </div>
         </nav>
       </div>
