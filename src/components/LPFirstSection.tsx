@@ -1,7 +1,7 @@
-import React from 'react';
-import { Button } from '@/components';
-import Image from 'next/image';
-import Link from 'next/link';
+import React from "react";
+import { Button } from "@/components";
+import Image from "next/image";
+import Link from "next/link";
 export const LPFirstSection = () => {
   return (
     <section className="bg-[#150E28] text-white border-b-2 border-white border-opacity-25 ">
@@ -43,7 +43,7 @@ export const LPFirstSection = () => {
                   </h1>
 
                   <Image
-                    src="/assets/pin-star.png "
+                    src="/assets/pinStar.png "
                     width={100}
                     height={100}
                     alt="pink-curve"
@@ -61,7 +61,6 @@ export const LPFirstSection = () => {
 
               <div className="m-auto md:m-0">
                 <Link href="/register">
-                  
                   <Button className="text-lg">Register</Button>
                 </Link>
               </div>
