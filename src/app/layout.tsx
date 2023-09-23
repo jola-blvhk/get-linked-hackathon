@@ -4,6 +4,7 @@ import { Montserrat, Unica_One } from 'next/font/google';
 import localFont from 'next/font/local';
 import Footer from '@/components/Footer';
 import Header from '@/components/Header';
+import TanstackProvider from './providers/TanstackProvider';
 
 const montserrat = Montserrat({ subsets: ['latin'], variable: '--body-font' });
 
@@ -53,11 +54,13 @@ export default function RootLayout({
       lang='en'
       className={`${montserrat.variable} ${clash.variable} ${unica_one.variable}`}
     >
+      <TanstackProvider>
       <body className=' font-body'>
         <Header />
         {children}
         <Footer />
-      </body>
+        </body>
+        </TanstackProvider>
     </html>
   );
 }
