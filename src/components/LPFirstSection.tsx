@@ -41,14 +41,15 @@ export const LPFirstSection = () => {
                     Hackathon
                     <span className=" text-primary-pink_100">1.0</span>
                   </h1>
-
-                  <Image
-                    src="/assets/pinStar.png "
-                    width={100}
-                    height={100}
-                    alt="pink-curve"
-                    className=" w-[20%] object-contain h-[100%]"
-                  />
+                  <div className="w-[20%] h-auto">
+                    <Image
+                      src="/assets/pinStar.png "
+                      width={100}
+                      height={100}
+                      alt="pink-curve"
+                      className=" w-full object-contain h-[100%]"
+                    />
+                  </div>
                 </div>
               </div>
 
