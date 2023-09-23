@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, TwoGrid, Faq, TimeLine, TimeLineThree, Rewards } from ".";
+import { Button, TwoGrid, Faq, TimeLine, TimeLineThree, Rewards, Partners } from ".";
 
 export const LPSecondSection = () => {
   const sectionOne = () => {
@@ -155,6 +155,7 @@ export const LPSecondSection = () => {
         <TimeLineThree />
       </div>
       <Rewards />
+      <Partners />
     </section>
   );
 };

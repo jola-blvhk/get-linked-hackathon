@@ -8,7 +8,7 @@ export const Rewards = () => {
       <section className="bg-[#150E28] border-b-2 border-white border-opacity-25 py-10">
         <div className="maxWidthScreen">
           <div className="padding_section">
-            <div className="text-center sm:text-left w-fit sm:float-right">
+            <div className=" m-auto md:m-0 text-center md:text-left w-fit md:float-right pb-9">
               <h2 className="font-heading text-xl sm:text-2xl  md:text-3xl font-bold  mx-auto ">
                 Prizes and <br />{" "}
                 <span className=" text-primary-pink_100">Rewards</span>
@@ -20,8 +20,8 @@ export const Rewards = () => {
               </p>
             </div>
 
-            <div className=" grid  sm:flex-center  w-full  gap-10 sm:gap-7">
-              <div className=" grid place-items-center sm:place-items-start sm:w-[30%]">
+            <div className=" grid  sm:flex-between w-full  gap-10 sm:gap-7">
+              <div className=" grid place-items-center sm:place-items-start sm:w-[40%]">
                 <Image
                   src="/assets/cup-with-a-dart.svg"
                   width={100}
@@ -30,7 +30,7 @@ export const Rewards = () => {
                   className="w-full h-auto  object-contain"
                 />
               </div>
-              <div className="w-72 h-52  relative ">
+              <div className="w-72 h-52 m-auto relative block md:hidden ">
                 <div className="w-24 h-40 left-0 top-[41.18px] absolute">
                   <div className="w-24 h-32 left-[-0px] top-[35.66px] absolute bg-fuchsia-500 bg-opacity-10 rounded-lg border border-fuchsia-500" />
                   <Image
@@ -88,6 +88,15 @@ export const Rewards = () => {
                     N400,000
                   </div>
                 </div>
+              </div>
+              <div className="hidden md:grid place-items-end">
+                <Image
+                  src="/assets/Rewards.svg"
+                  width={100}
+                  height={100}
+                  alt="cup with a dart"
+                  className="w-[90%] h-auto  object-contain"
+                />
               </div>
 
               {/* <div className="w-96 h-96 relative lg:block">
