@@ -58,7 +58,7 @@ export default function RootLayout({
       <body className=' font-body'>
         <Header />
         {children}
-        <Footer />
+      
         </body>
         </TanstackProvider>
     </html>

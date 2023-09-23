@@ -77,11 +77,11 @@ const Register = () => {
   };
   return (
     <>
-      <div className="bg-[url(/images/desktop-images/contact-bg.png)] bg-no-repeat bg-cover md:pb-40 h-screen">
+      <div className="bg-[url(/images/desktop-images/contact-bg.png)] bg-no-repeat bg-cover md:pb-40  bg-[#150E28]">
         <div className="hidden md:block"></div>
         <main className="pb-16 md:pt-48">
           <div
-            className="mt-8"
+            className="pt-32"
             onClick={() => {
               router.push("/");
             }}
@@ -97,7 +97,7 @@ const Register = () => {
             <div className="mt-16 md:w-1/2 flex flex-col items-center justify-center md:mt-0">
               <div className="relative w-[250px] h-[150px] mx-auto md:mx-0 md:hidden">
                 <Image
-                  src="/images/mobile-images/register-3d.png"
+                  src="/assets/man-with-table.png"
                   alt="register 3D picx"
                   fill
                 />
@@ -111,7 +111,7 @@ const Register = () => {
               </div>
             </div>
             <div className="md:w-2/3 px-6 md:px-4 lg:p-12 lg:pt-4 rounded-xl md:bg-gradient-to-br from-[#1C152E] to-[#240d3b]">
-              <div className="text-white text-center my-8 md:text-left">
+              <div className="text-white text-center my-8 md:text-left bg-[#150E28]">
                 <div className="flex items-baseline pl-5 gap-4 mb-3 md:hidden">
                   <p className="text-[12px] md:text-left  ">
                     Be part of this movement!
@@ -124,11 +124,11 @@ const Register = () => {
                     />
                   </div>
                 </div>
-                <div className="">
+                <div className="bg-[#150E28]">
                   <p className="hidden md:block text-[#FF26B9] text-[32px] font-bold mb-6">
                     Register
                   </p>
-                  <div className="items-baseline gap-4 mb-3  hidden md:flex">
+                  <div className="items-baseline gap-4 mb-3  hidden md:flex bg-[#150E28]">
                     <p className="text-[12px] md:text-left">
                       Be part of this movement!
                     </p>
@@ -145,7 +145,7 @@ const Register = () => {
                   Create your account
                 </p>
               </div>
-              <form onSubmit={onSubmitHandler}>
+              <form onSubmit={onSubmitHandler} className="bg-[#150E28]">
                 <div className="px-6 md:px-0">
                   <div className="md:flex gap-4">
                     <Input
