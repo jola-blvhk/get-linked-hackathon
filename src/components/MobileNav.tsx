@@ -79,7 +79,9 @@ const MobileNav = () => {
           ))}
           <div className="mt-10">
             <Link href="/register">
-              <Button className="py-4 px-14 rounded-md">Register</Button>
+              <Button className="py-4 px-14 rounded-md " onClick={onToggleMenu}>
+                Register
+              </Button>
             </Link>
           </div>
         </nav>
