@@ -76,6 +76,7 @@ export const LPFirstSection = () => {
                 className='w-[100%] h-auto  -z-[1] '
                 width={1440}
                 height={800}
+                priority
                 alt='a man'
               />
             </section>
